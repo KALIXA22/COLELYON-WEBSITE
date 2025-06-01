@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FAQ - Elegance Design Studio</title>
+    <link rel="stylesheet" href="../styles/faq.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="header">
+        <nav class="navbar">
+            <div class="nav-container">
+                <div class="logo">
+                    <h1>COL*YON</h1>
+                </div>
+                <ul class="nav-menu">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="portfolio.html">Portfolio</a></li>
+                    <li><a href="residential.html">Residential</a></li>
+                    <li><a href="commercial.html">Commercial</a></li>
+                    <li><a href="kitchen.html">Kitchen</a></li>
+                    <li><a href="bedroom.html">Bedroom</a></li>
+                    <li><a href="living-room.html">Living Room</a></li>
+                    <li><a href="bathroom.html">Bathroom</a></li>
+                    <li><a href="team.html">Team</a></li>
+                    <li><a href="testimonials.html">Testimonials</a></li>
+                    <li><a href="blog.html">Blog</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="faq.html" class="active">FAQ</a></li>
+                </ul>
+          <div class="hamburger" onclick="toggleMenu()">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+        </nav>
+    </header>
+<script>
+function toggleMenu() {
+  // Get the navigation menu using the class selector
+  const navMenu = document.querySelector('.nav-menu');
+  
+  // Toggle the 'active' class on the menu
+  navMenu.classList.toggle('active');
+  
+  // Also toggle 'active' class on the hamburger icon for animation
+  const hamburger = document.querySelector('.hamburger');
+  hamburger.classList.toggle('active');
+}
+  </script>
+
+    <main>
+        <section class="page-hero">
+            <div class="container">
+                <h1 class="page-title">Frequently Asked Questions</h1>
+                <p class="page-subtitle">Find answers to common questions about our design process</p>
+            </div>
+        </section>
+
+        <section class="faq-section">
+            <div class="container">
+                <div class="faq-categories">
+                    <button class="category-btn active" data-category="general">General</button>
+                    <button class="category-btn" data-category="process">Design Process</button>
+                    <button class="category-btn" data-category="pricing">Pricing</button>
+                    <button class="category-btn" data-category="timeline">Timeline</button>
+                </div>
+
+                <div class="faq-content">
+                    <div class="faq-category" id="general">
+                        <div class="faq-item">
+                            <div class="faq-question">
+                                <h3>What services does Elegance Design Studio offer?</h3>
+                                <span class="toggle-icon">+</span>
+                            </div>
+                            <div class="faq-answer">
+                                <p>We offer comprehensive interior design services including residential design, commercial design, kitchen and bathroom renovations, space planning, color consultation, furniture selection, and complete home makeovers. Our team handles projects of all sizes from single rooms to entire homes and commercial spaces.</p>
+                            </div>
+                        </div>
+
+                        <div class="faq-item">
+                            <div class="faq-question">
+                                <h3>Do you work with existing furniture and decor?</h3>
+                                <span class="toggle-icon">+</span>
+                            </div>
+                            <div class="faq-answer">
+                                <p>We love incorporating pieces that have sentimental value or are in excellent condition. During our consultation, we'll assess your existing items and determine how to best integrate them into the new design while adding new pieces to complete the look.</p>
+                            </div>
+                        </div>
+
+                        <div class="faq-item">
+                            <div class="faq-question">
+                                <h3>What areas do you serve?</h3>
+                                <span class="toggle-icon">+</span>
+                            </div>
+                            <div class="faq-answer">
+                                <p>We primarily serve the New York metropolitan area, including Manhattan, Brooklyn, Queens, Westchester, and Long Island. For larger projects, we're happy to discuss travel arrangements to other locations.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="faq-category" id="process" style="display: none;">
+                        <div class="faq-item">
+                            <div class="faq-question">
+                                <h3>What does the initial consultation include?</h3>
+                                <span class="toggle-icon">+</span>
+                            </div>
+                            <div class="faq-answer">
+                                <p>Our initial consultation includes a thorough discussion of your vision, lifestyle needs, and budget. We'll tour your space, take measurements, assess existing conditions, and provide preliminary design recommendations. This 90-minute session helps us understand your project scope and allows you to get to know our team.</p>
+                            </div>
+                        </div>
+
+                        <div class="faq-item">
+                            <div class="faq-question">
+                                <h3>How involved will I be in the design process?</h3>
+                                <span class="toggle-icon">+</span>
+                            </div>
+                            <div class="faq-answer">
+                                <p>You'll be involved every step of the way! We believe in collaborative design and will present concepts, materials, and options for your approval at each phase. We schedule regular check-ins and ensure you're comfortable with all decisions before moving forward.</p>
+                            </div>
+                        </div>
+
+                        <div class="faq-item">
+                            <div class="faq-question">
+                                <h3>Do you provide 3D renderings?</h3>
+                                <span class="toggle-icon">+</span>
+                            </div>
+                            <div class="faq-answer">
+                                <p>Yes! We create detailed 3D renderings for all major projects so you can visualize the final result before any work begins. This helps ensure we're aligned on the design direction and allows for any adjustments before implementation.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="faq-category" id="pricing" style="display: none;">
+                        <div class="faq-item">
+                            <div class="faq-question">
+                                <h3>How do you structure your pricing?</h3>
+                                <span class="toggle-icon">+</span>
+                            </div>
+                            <div class="faq-answer">
+                                <p>We offer flexible pricing structures including hourly consultation rates, flat fees for specific rooms, and comprehensive packages for whole-home projects. Pricing depends on project scope, timeline, and level of service required. We provide detailed proposals with transparent pricing before any work begins.</p>
+                            </div>
+                        </div>
+
+                        <div class="faq-item">
+                            <div class="faq-question">
+                                <h3>What's included in your design fee?</h3>
+                                <span class="toggle-icon">+</span>
+                            </div>
+                            <div class="faq-answer">
+                                <p>Our design fee includes space planning, concept development, material selection, furniture sourcing, 3D renderings, project management, and installation oversight. Furniture, materials, and contractor costs are separate and clearly outlined in your proposal.</p>
+                            </div>
+                        </div>
+
+                        <div class="faq-item">
+                            <div class="faq-question">
+                                <h3>Do you work with different budget ranges?</h3>
+                                <span class="toggle-icon">+</span>
+                            </div>
+                            <div class="faq-answer">
+                                <p>Yes! We work with various budget ranges and will tailor our recommendations accordingly. During our consultation, we'll discuss your budget openly and create a design plan that maximizes impact within your financial parameters.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="faq-category" id="timeline" style="display: none;">
+                        <div class="faq-item">
+                            <div class="faq-question">
+                                <h3>How long does a typical project take?</h3>
+                                <span class="toggle-icon">+</span>
+                            </div>
+                            <div class="faq-answer">
+                                <p>Timeline varies by project scope. A single room design typically takes 6-8 weeks from concept to completion, while whole-home projects can take 3-6 months. We'll provide a detailed timeline during the planning phase and keep you updated throughout the process.</p>
+                            </div>
+                        </div>
+
+                        <div class="faq-item">
+                            <div class="faq-question">
+                                <h3>What factors affect project timeline?</h3>
+                                <span class="toggle-icon">+</span>
+                            </div>
+                            <div class="faq-answer">
+                                <p>Timeline can be affected by custom furniture lead times, material availability, permit requirements, contractor schedules, and project complexity. We account for these factors in our planning and communicate any potential delays immediately.</p>
+                            </div>
+                        </div>
+
+                        <div class="faq-item">
+                            <div class="faq-question">
+                                <h3>Can you work with urgent timelines?</h3>
+                                <span class="toggle-icon">+</span>
+                            </div>
+                            <div class="faq-answer">
+                                <p>We understand that sometimes projects have tight deadlines. While we always strive for quality, we can often accommodate urgent timelines by prioritizing readily available materials and coordinating closely with our trusted contractors and vendors.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="contact-cta">
+            <div class="container">
+                <div class="cta-content">
+                    <h2>Still Have Questions?</h2>
+                    <p>We're here to help! Contact us for a personalized consultation.</p>
+                    <div class="cta-buttons">
+                        <a href="contact.html" class="btn btn-primary">Contact Us</a>
+                        <a href="tel:5551234567" class="btn btn-secondary">Call Now</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Elegance Design Studio</h3>
+                    <p>Creating beautiful, functional spaces that inspire and delight.</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="services.html">Services</a></li>
+                        <li><a href="portfolio.html">Portfolio</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Services</h4>
+                    <ul>
+                        <li><a href="residential.html">Residential Design</a></li>
+                        <li><a href="commercial.html">Commercial Design</a></li>
+                        <li><a href="kitchen.html">Kitchen Design</a></li>
+                        <li><a href="bedroom.html">Bedroom Design</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Contact Info</h4>
+                    <p>📧 info@elegancedesign.com</p>
+                    <p>📞 (555) 123-4567</p>
+                    <p>📍 123 Design Street, City, State</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Elegance Design Studio. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

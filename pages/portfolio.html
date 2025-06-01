@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - Elegance Design Studio</title>
+    <link rel="stylesheet" href="../styles/portfolio.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="header">
+        <nav class="navbar">
+            <div class="nav-container">
+                <div class="logo">
+                    <h1>COL*YON</h1>
+                </div>
+                <ul class="nav-menu">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="portfolio.html" class="active">Portfolio</a></li>
+                    <li><a href="residential.html">Residential</a></li>
+                    <li><a href="commercial.html">Commercial</a></li>
+                    <li><a href="kitchen.html">Kitchen</a></li>
+                    <li><a href="bedroom.html">Bedroom</a></li>
+                    <li><a href="living-room.html">Living Room</a></li>
+                    <li><a href="bathroom.html">Bathroom</a></li>
+                    <li><a href="team.html">Team</a></li>
+                    <li><a href="testimonials.html">Testimonials</a></li>
+                    <li><a href="blog.html">Blog</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="faq.html">FAQ</a></li>
+                </ul>
+          <div class="hamburger" onclick="toggleMenu()">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+        </nav>
+    </header>
+<script>
+function toggleMenu() {
+  // Get the navigation menu using the class selector
+  const navMenu = document.querySelector('.nav-menu');
+  
+  // Toggle the 'active' class on the menu
+  navMenu.classList.toggle('active');
+  
+  // Also toggle 'active' class on the hamburger icon for animation
+  const hamburger = document.querySelector('.hamburger');
+  hamburger.classList.toggle('active');
+}
+  </script>
+
+    <main>
+        <section class="page-hero">
+            <div class="container">
+                <h1 class="page-title">Our Portfolio</h1>
+                <p class="page-subtitle">Discover our latest interior design projects and transformations</p>
+            </div>
+        </section>
+
+        <section class="portfolio-filters">
+            <div class="container">
+                <div class="filter-buttons">
+                    <button class="filter-btn active" data-filter="all">All Projects</button>
+                    <button class="filter-btn" data-filter="residential">Residential</button>
+                    <button class="filter-btn" data-filter="commercial">Commercial</button>
+                    <button class="filter-btn" data-filter="kitchen">Kitchen</button>
+                    <button class="filter-btn" data-filter="bedroom">Bedroom</button>
+                    <button class="filter-btn" data-filter="living">Living Room</button>
+                    <button class="filter-btn" data-filter="bathroom">Bathroom</button>
+                </div>
+            </div>
+        </section>
+
+        <section class="portfolio-gallery">
+            <div class="container">
+                <div class="gallery-grid">
+                    <div class="gallery-item" data-category="residential living">
+                        <img src="../images/Livingroom6.jpg" alt="Modern Living Room Design" />
+                        <div class="gallery-overlay">
+                            <h3>Modern Living Room</h3>
+                            <p>Contemporary elegance with comfort</p>
+                            <span class="category">Residential</span>
+                        </div>
+                    </div>
+                    
+                    <div class="gallery-item" data-category="kitchen residential">
+                        <img src="../images/kitchen5.jpg" alt="Luxury Kitchen Design" />
+                        <div class="gallery-overlay">
+                            <h3>Luxury Kitchen</h3>
+                            <p>Culinary excellence meets design</p>
+                            <span class="category">Kitchen</span>
+                        </div>
+                    </div>
+                    
+                    <div class="gallery-item" data-category="bedroom residential">
+                        <img src="../images/bathroom4.jpg" alt="Master Bedroom Suite" />
+                        <div class="gallery-overlay">
+                            <h3>Master Bedroom Suite</h3>
+                            <p>Serene sanctuary for rest</p>
+                            <span class="category">Bedroom</span>
+                        </div>
+                    </div>
+                    
+                    <div class="gallery-item" data-category="commercial">
+                        <img src="../images/commercial2.jpg" alt="Corporate Office Design" />
+                        <div class="gallery-overlay">
+                            <h3>Corporate Office</h3>
+                            <p>Professional workspace design</p>
+                            <span class="category">Commercial</span>
+                        </div>
+                    </div>
+                    
+                    <div class="gallery-item" data-category="bathroom residential">
+                        <img src="../images/bathroom4.jpg" alt="Spa Bathroom Design" />
+                        <div class="gallery-overlay">
+                            <h3>Spa Bathroom</h3>
+                            <p>Luxury meets functionality</p>
+                            <span class="category">Bathroom</span>
+                        </div>
+                    </div>
+                    
+                    <div class="gallery-item" data-category="living residential">
+                        <img src="../images/download (3).jpg" alt="Family Living Space" />
+                        <div class="gallery-overlay">
+                            <h3>Family Living Space</h3>
+                            <p>Comfort for the whole family</p>
+                            <span class="category">Living Room</span>
+                        </div>
+                    </div>
+                    
+                    <div class="gallery-item" data-category="commercial">
+                        <img src="../images/commercial2.jpg" alt="Restaurant Interior" />
+                        <div class="gallery-overlay">
+                            <h3>Restaurant Interior</h3>
+                            <p>Dining experience design</p>
+                            <span class="category">Commercial</span>
+                        </div>
+                    </div>
+                    
+                    <div class="gallery-item" data-category="kitchen residential">
+                        <img src="../images/kitchen5.jpg" alt="Contemporary Kitchen" />
+                        <div class="gallery-overlay">
+                            <h3>Contemporary Kitchen</h3>
+                            <p>Modern functionality</p>
+                            <span class="category">Kitchen</span>
+                        </div>
+                    </div>
+                    
+                    <div class="gallery-item" data-category="bedroom residential">
+                        <img src="../images/bedroom2.jpg" alt="Guest Bedroom" />
+                        <div class="gallery-overlay">
+                            <h3>Guest Bedroom</h3>
+                            <p>Welcoming retreat</p>
+                            <span class="category">Bedroom</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="featured-project">
+            <div class="container">
+                <h2 class="section-title">Featured Project</h2>
+                <div class="featured-content">
+                    <div class="featured-images">
+                        <img src="../images/download (1).jpg" alt="Featured Project" class="main-image" />
+                        <div class="thumbnail-grid">
+                            <img src="../images/download (2).jpg" alt="Project Detail 1" />
+                            <img src="../images/download (3).jpg" alt="Project Detail 2" />
+                            <img src="../images/download (4).jpg" alt="Project Detail 3" />
+                        </div>
+                    </div>
+                    <div class="featured-details">
+                        <h3>Luxury Penthouse Transformation</h3>
+                        <p class="project-type">Residential • Complete Home</p>
+                        <p>This stunning penthouse transformation showcases our ability to blend modern luxury with timeless elegance. The project involved a complete redesign of a 3,500 sq ft space, creating an open-concept living area that maximizes natural light and city views.</p>
+                        <div class="project-stats">
+                            <div class="stat">
+                                <h4>3,500</h4>
+                                <p>Square Feet</p>
+                            </div>
+                            <div class="stat">
+                                <h4>6</h4>
+                                <p>Months</p>
+                            </div>
+                            <div class="stat">
+                                <h4>2023</h4>
+                                <p>Completed</p>
+                            </div>
+                        </div>
+                        <a href="contact.html" class="btn btn-primary">Start Your Project</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="cta">
+            <div class="container">
+                <div class="cta-content">
+                    <h2>Ready to Create Your Dream Space?</h2>
+                    <p>Let's discuss your vision and bring it to life with our expert design team.</p>
+                    <a href="contact.html" class="btn btn-primary">Get Started Today</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Elegance Design Studio</h3>
+                    <p>Creating beautiful, functional spaces that inspire and delight.</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="services.html">Services</a></li>
+                        <li><a href="portfolio.html">Portfolio</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Services</h4>
+                    <ul>
+                        <li><a href="residential.html">Residential Design</a></li>
+                        <li><a href="commercial.html">Commercial Design</a></li>
+                        <li><a href="kitchen.html">Kitchen Design</a></li>
+                        <li><a href="bedroom.html">Bedroom Design</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Contact Info</h4>
+                    <p>📧 info@elegancedesign.com</p>
+                    <p>📞 (555) 123-4567</p>
+                    <p>📍 123 Design Street, City, State</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Elegance Design Studio. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

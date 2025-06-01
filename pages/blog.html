@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Design Blog - Elegance Design Studio</title>
+    <link rel="stylesheet" href="../styles/blog.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="header">
+        <nav class="navbar">
+            <div class="nav-container">
+                <div class="logo">
+                    <h1>COL*YON</h1>
+                </div>
+                <ul class="nav-menu">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="portfolio.html">Portfolio</a></li>
+                    <li><a href="residential.html">Residential</a></li>
+                    <li><a href="commercial.html">Commercial</a></li>
+                    <li><a href="kitchen.html">Kitchen</a></li>
+                    <li><a href="bedroom.html">Bedroom</a></li>
+                    <li><a href="living-room.html">Living Room</a></li>
+                    <li><a href="bathroom.html">Bathroom</a></li>
+                    <li><a href="team.html">Team</a></li>
+                    <li><a href="testimonials.html">Testimonials</a></li>
+                    <li><a href="blog.html" class="active">Blog</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="faq.html">FAQ</a></li>
+                </ul>
+           <div class="hamburger" onclick="toggleMenu()">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+        </nav>
+    </header>
+<script>
+function toggleMenu() {
+  // Get the navigation menu using the class selector
+  const navMenu = document.querySelector('.nav-menu');
+  
+  // Toggle the 'active' class on the menu
+  navMenu.classList.toggle('active');
+  
+  // Also toggle 'active' class on the hamburger icon for animation
+  const hamburger = document.querySelector('.hamburger');
+  hamburger.classList.toggle('active');
+}
+  </script>
+
+    <main>
+        <section class="page-hero">
+            <div class="container">
+                <h1 class="page-title">Design Blog</h1>
+                <p class="page-subtitle">Insights, trends, and inspiration from our design experts</p>
+            </div>
+        </section>
+
+        <section class="blog-section">
+            <div class="container">
+                <div class="blog-grid">
+                    <article class="blog-post featured">
+                        <img src="../images/LivingRoom3.jpg" alt="2024 Design Trends" />
+                        <div class="post-content">
+                            <div class="post-meta">
+                                <span class="category">Trends</span>
+                                <span class="date">December 15, 2025</span>
+                            </div>
+                            <h2>Top Interior Design Trends for 2024</h2>
+                            <p>Discover the latest trends shaping interior design this year, from sustainable materials to bold color choices that are transforming modern homes.</p>
+                            <a href="#" class="read-more">Read More</a>
+                        </div>
+                    </article>
+
+                    <article class="blog-post">
+                        <img src="../images/kitchen3.jpg" alt="Small Space Design" />
+                        <div class="post-content">
+                            <div class="post-meta">
+                                <span class="category">Tips</span>
+                                <span class="date">December 10, 2024</span>
+                            </div>
+                            <h3>Maximizing Small Spaces: Design Tips That Work</h3>
+                            <p>Learn how to make the most of compact living areas with clever storage solutions and space-enhancing design strategies.</p>
+                            <a href="#" class="read-more">Read More</a>
+                        </div>
+                    </article>
+
+                    <article class="blog-post">
+                        <img src="../images/download (6).jpg" alt="Color Psychology" />
+                        <div class="post-content">
+                            <div class="post-meta">
+                                <span class="category">Design</span>
+                                <span class="date">December 5, 2024</span>
+                            </div>
+                            <h3>The Psychology of Color in Interior Design</h3>
+                            <p>Explore how different colors affect mood and atmosphere, and learn to choose the perfect palette for each room.</p>
+                            <a href="#" class="read-more">Read More</a>
+                        </div>
+                    </article>
+
+                    <article class="blog-post">
+                        <img src="../images/download (7).jpg" alt="Sustainable Design" />
+                        <div class="post-content">
+                            <div class="post-meta">
+                                <span class="category">Sustainability</span>
+                                <span class="date">November 28, 2024</span>
+                            </div>
+                            <h3>Sustainable Design: Beautiful and Eco-Friendly</h3>
+                            <p>Discover how to create stunning interiors while being mindful of environmental impact through sustainable design choices.</p>
+                            <a href="#" class="read-more">Read More</a>
+                        </div>
+                    </article>
+
+                    <article class="blog-post">
+                        <img src="../images/home decoret.jpg" alt="Lighting Design" />
+                        <div class="post-content">
+                            <div class="post-meta">
+                                <span class="category">Lighting</span>
+                                <span class="date">November 20, 2024</span>
+                            </div>
+                            <h3>Layered Lighting: Creating the Perfect Ambiance</h3>
+                            <p>Master the art of lighting design with our guide to creating beautiful, functional illumination in every room.</p>
+                            <a href="#" class="read-more">Read More</a>
+                        </div>
+                    </article>
+
+                    <article class="blog-post">
+                        <img src="../images/download (6).jpg" alt="Budget Design" />
+                        <div class="post-content">
+                            <div class="post-meta">
+                                <span class="category">Budget</span>
+                                <span class="date">November 15, 2024</span>
+                            </div>
+                            <h3>High-End Look on a Budget: Designer Secrets</h3>
+                            <p>Learn professional tricks for achieving luxury aesthetics without breaking the bank through smart shopping and DIY solutions.</p>
+                            <a href="#" class="read-more">Read More</a>
+                        </div>
+                    </article>
+                </div>
+
+                <div class="pagination">
+                    <a href="#" class="page-link active">1</a>
+                    <a href="#" class="page-link">2</a>
+                    <a href="#" class="page-link">3</a>
+                    <a href="#" class="page-link">Next</a>
+                </div>
+            </div>
+        </section>
+
+        <section class="newsletter-section">
+            <div class="container">
+                <div class="newsletter-content">
+                    <h2>Stay Updated with Design Trends</h2>
+                    <p>Subscribe to our newsletter for the latest design insights, tips, and project updates.</p>
+                    <form class="newsletter-form">
+                        <input type="email" placeholder="Enter your email address" required>
+                        <button type="submit" class="btn btn-primary">Subscribe</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Elegance Design Studio</h3>
+                    <p>Creating beautiful, functional spaces that inspire and delight.</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="services.html">Services</a></li>
+                        <li><a href="portfolio.html">Portfolio</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Services</h4>
+                    <ul>
+                        <li><a href="residential.html">Residential Design</a></li>
+                        <li><a href="commercial.html">Commercial Design</a></li>
+                        <li><a href="kitchen.html">Kitchen Design</a></li>
+                        <li><a href="bedroom.html">Bedroom Design</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Contact Info</h4>
+                    <p>📧 info@elegancedesign.com</p>
+                    <p>📞 (555) 123-4567</p>
+                    <p>📍 123 Design Street, City, State</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Elegance Design Studio. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

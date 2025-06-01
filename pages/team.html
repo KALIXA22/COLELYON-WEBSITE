@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Team - Elegance Design Studio</title>
+    <link rel="stylesheet" href="../styles/team.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="header">
+        <nav class="navbar">
+            <div class="nav-container">
+                <div class="logo">
+                    <h1>COL*YON</h1>
+                </div>
+                <ul class="nav-menu">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="portfolio.html">Portfolio</a></li>
+                    <li><a href="residential.html">Residential</a></li>
+                    <li><a href="commercial.html">Commercial</a></li>
+                    <li><a href="kitchen.html">Kitchen</a></li>
+                    <li><a href="bedroom.html">Bedroom</a></li>
+                    <li><a href="living-room.html">Living Room</a></li>
+                    <li><a href="bathroom.html">Bathroom</a></li>
+                    <li><a href="team.html" class="active">Team</a></li>
+                    <li><a href="testimonials.html">Testimonials</a></li>
+                    <li><a href="blog.html">Blog</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="faq.html">FAQ</a></li>
+                </ul>
+         <div class="hamburger" onclick="toggleMenu()">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+        </nav>
+    </header>
+<script>
+function toggleMenu() {
+  // Get the navigation menu using the class selector
+  const navMenu = document.querySelector('.nav-menu');
+  
+  // Toggle the 'active' class on the menu
+  navMenu.classList.toggle('active');
+  
+  // Also toggle 'active' class on the hamburger icon for animation
+  const hamburger = document.querySelector('.hamburger');
+  hamburger.classList.toggle('active');
+}
+  </script>
+
+    <main>
+        <section class="page-hero">
+            <div class="container">
+                <h1 class="page-title">Meet Our Team</h1>
+                <p class="page-subtitle">Talented designers passionate about creating beautiful spaces</p>
+            </div>
+        </section>
+
+        <section class="team-section">
+            <div class="container">
+                <div class="team-grid">
+                    <div class="team-member">
+                        <div class="member-image">
+                            <img src="../images/user4.jpg" alt="Sarah Mitchell" />
+                        </div>
+                        <div class="member-info">
+                            <h3>Sarah Mitchell</h3>
+                            <p class="role">Founder & Creative Director</p>
+                            <p class="bio">With over 15 years of experience, Sarah leads our creative vision and ensures every project reflects our commitment to excellence.</p>
+                        </div>
+                    </div>
+
+                    <div class="team-member">
+                        <div class="member-image">
+                            <img src="../images/user1.jpg" alt="Michael Chen" />
+                        </div>
+                        <div class="member-info">
+                            <h3>Michael Chen</h3>
+                            <p class="role">Senior Interior Designer</p>
+                            <p class="bio">Michael specializes in contemporary and minimalist design, bringing clean lines and functional beauty to every space.</p>
+                        </div>
+                    </div>
+
+                    <div class="team-member">
+                        <div class="member-image">
+                            <img src="../images/user5.jpg" alt="Emma Rodriguez" />
+                        </div>
+                        <div class="member-info">
+                            <h3>Emma Rodriguez</h3>
+                            <p class="role">Project Manager</p>
+                            <p class="bio">Emma ensures every project runs smoothly from concept to completion, coordinating all aspects of the design process.</p>
+                        </div>
+                    </div>
+
+                    <div class="team-member">
+                        <div class="member-image">
+                            <img src="../images/user3.jpg" alt="David Thompson" />
+                        </div>
+                        <div class="member-info">
+                            <h3>David Thompson</h3>
+                            <p class="role">Commercial Design Specialist</p>
+                            <p class="bio">David focuses on creating inspiring commercial spaces that enhance productivity and reflect brand identity.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="cta">
+            <div class="container">
+                <div class="cta-content">
+                    <h2>Work With Our Expert Team</h2>
+                    <p>Ready to collaborate with our talented designers? Let's create something amazing together.</p>
+                    <a href="contact.html" class="btn btn-primary">Start Your Project</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Elegance Design Studio</h3>
+                    <p>Creating beautiful, functional spaces that inspire and delight.</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="services.html">Services</a></li>
+                        <li><a href="portfolio.html">Portfolio</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Services</h4>
+                    <ul>
+                        <li><a href="residential.html">Residential Design</a></li>
+                        <li><a href="commercial.html">Commercial Design</a></li>
+                        <li><a href="kitchen.html">Kitchen Design</a></li>
+                        <li><a href="bedroom.html">Bedroom Design</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Contact Info</h4>
+                    <p>📧 info@elegancedesign.com</p>
+                    <p>📞 (555) 123-4567</p>
+                    <p>📍 123 Design Street, City, State</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Elegance Design Studio. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

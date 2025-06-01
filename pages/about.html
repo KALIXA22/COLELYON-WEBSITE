@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us - Elegance Design Studio</title>
+    <link rel="stylesheet" href="../styles/about.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="header">
+        <nav class="navbar">
+            <div class="nav-container">
+                <div class="logo">
+                    <h1>COL*YON</h1>
+                </div>
+                <ul class="nav-menu">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html" class="active">About</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="portfolio.html">Portfolio</a></li>
+                    <li><a href="residential.html">Residential</a></li>
+                    <li><a href="commercial.html">Commercial</a></li>
+                    <li><a href="kitchen.html">Kitchen</a></li>
+                    <li><a href="bedroom.html">Bedroom</a></li>
+                    <li><a href="living-room.html">Living Room</a></li>
+                    <li><a href="bathroom.html">Bathroom</a></li>
+                    <li><a href="team.html">Team</a></li>
+                    <li><a href="testimonials.html">Testimonials</a></li>
+                    <li><a href="blog.html">Blog</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="faq.html">FAQ</a></li>
+                </ul>
+            <div class="hamburger" onclick="toggleMenu()">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+        </nav>
+    </header>
+<script>
+function toggleMenu() {
+  // Get the navigation menu using the class selector
+  const navMenu = document.querySelector('.nav-menu');
+  
+  // Toggle the 'active' class on the menu
+  navMenu.classList.toggle('active');
+  
+  // Also toggle 'active' class on the hamburger icon for animation
+  const hamburger = document.querySelector('.hamburger');
+  hamburger.classList.toggle('active');
+}
+  </script>
+    <main>
+        <section class="page-hero">
+            <div class="container">
+                <h1 class="page-title">About Elegance Design Studio</h1>
+                <p class="page-subtitle">Creating timeless interiors that tell your story</p>
+            </div>
+        </section>
+
+        <section class="about-intro">
+            <div class="container">
+                <div class="intro-grid">
+                    <div class="intro-content">
+                        <h2>Our Story</h2>
+                        <p>Founded in 2010, Elegance Design Studio has been transforming spaces and lives for over a decade. What started as a passion project by our founder, Sarah Mitchell, has grown into a premier interior design firm known for creating sophisticated, functional, and beautiful spaces.</p>
+                        <p>We believe that great design is not just about aesthetics—it's about creating environments that enhance the way you live, work, and feel. Every project we undertake is a collaboration between our expertise and your vision.</p>
+                        <div class="stats">
+                            <div class="stat">
+                                <h3>500+</h3>
+                                <p>Projects Completed</p>
+                            </div>
+                            <div class="stat">
+                                <h3>15+</h3>
+                                <p>Awards Won</p>
+                            </div>
+                            <div class="stat">
+                                <h3>98%</h3>
+                                <p>Client Satisfaction</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="intro-image">
+                        <img src="../images/residential2.jpg" alt="Our Design Studio" />
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="mission-vision">
+            <div class="container">
+                <div class="mv-grid">
+                    <div class="mv-card">
+                        <div class="mv-icon">🎯</div>
+                        <h3>Our Mission</h3>
+                        <p>To create exceptional interior spaces that reflect our clients' personalities while enhancing their quality of life through thoughtful design, superior craftsmanship, and unparalleled service.</p>
+                    </div>
+                    <div class="mv-card">
+                        <div class="mv-icon">👁️</div>
+                        <h3>Our Vision</h3>
+                        <p>To be the leading interior design studio recognized for innovative solutions, sustainable practices, and creating spaces that inspire and endure for generations to come.</p>
+                    </div>
+                    <div class="mv-card">
+                        <div class="mv-icon">💎</div>
+                        <h3>Our Values</h3>
+                        <p>Excellence, integrity, creativity, and collaboration guide everything we do. We believe in transparent communication and building lasting relationships with our clients.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="process">
+            <div class="container">
+                <h2 class="section-title">Our Design Process</h2>
+                <div class="process-steps">
+                    <div class="step">
+                        <div class="step-number">01</div>
+                        <h3>Discovery</h3>
+                        <p>We begin by understanding your lifestyle, preferences, and goals for the space.</p>
+                    </div>
+                    <div class="step">
+                        <div class="step-number">02</div>
+                        <h3>Concept</h3>
+                        <p>Our team develops initial design concepts and mood boards for your review.</p>
+                    </div>
+                    <div class="step">
+                        <div class="step-number">03</div>
+                        <h3>Design</h3>
+                        <p>We create detailed plans, 3D renderings, and specifications for your project.</p>
+                    </div>
+                    <div class="step">
+                        <div class="step-number">04</div>
+                        <h3>Implementation</h3>
+                        <p>Our project management team oversees every detail of the installation process.</p>
+                    </div>
+                    <div class="step">
+                        <div class="step-number">05</div>
+                        <h3>Reveal</h3>
+                        <p>We unveil your transformed space and ensure every detail exceeds expectations.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="awards">
+            <div class="container">
+                <h2 class="section-title">Recognition & Awards</h2>
+                <div class="awards-grid">
+                    <div class="award-item">
+                        <div class="award-icon">🏆</div>
+                        <h3>Best Interior Design Firm 2023</h3>
+                        <p>Design Excellence Awards</p>
+                    </div>
+                    <div class="award-item">
+                        <div class="award-icon">⭐</div>
+                        <h3>Luxury Lifestyle Award</h3>
+                        <p>International Design Awards</p>
+                    </div>
+                    <div class="award-item">
+                        <div class="award-icon">🎖️</div>
+                        <h3>Sustainable Design Leader</h3>
+                        <p>Green Building Council</p>
+                    </div>
+                    <div class="award-item">
+                        <div class="award-icon">🌟</div>
+                        <h3>Client Choice Award</h3>
+                        <p>Home & Design Magazine</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="cta">
+            <div class="container">
+                <div class="cta-content">
+                    <h2>Ready to Start Your Design Journey?</h2>
+                    <p>Let's discuss how we can transform your space into something extraordinary.</p>
+                    <a href="contact.html" class="btn btn-primary">Schedule Consultation</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Elegance Design Studio</h3>
+                    <p>Creating beautiful, functional spaces that inspire and delight.</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="services.html">Services</a></li>
+                        <li><a href="portfolio.html">Portfolio</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Services</h4>
+                    <ul>
+                        <li><a href="residential.html">Residential Design</a></li>
+                        <li><a href="commercial.html">Commercial Design</a></li>
+                        <li><a href="kitchen.html">Kitchen Design</a></li>
+                        <li><a href="bedroom.html">Bedroom Design</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Contact Info</h4>
+                    <p>📧 info@elegancedesign.com</p>
+                    <p>📞 (555) 123-4567</p>
+                    <p>📍 123 Design Street, City, State</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Elegance Design Studio. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

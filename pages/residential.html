@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Residential Design - Elegance Design Studio</title>
+    <link rel="stylesheet" href="../styles/residential.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="header">
+        <nav class="navbar">
+            <div class="nav-container">
+                <div class="logo">
+                    <h1>COL*YON</h1>
+                </div>
+                <ul class="nav-menu">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="portfolio.html">Portfolio</a></li>
+                    <li><a href="residential.html" class="active">Residential</a></li>
+                    <li><a href="commercial.html">Commercial</a></li>
+                    <li><a href="kitchen.html">Kitchen</a></li>
+                    <li><a href="bedroom.html">Bedroom</a></li>
+                    <li><a href="living-room.html">Living Room</a></li>
+                    <li><a href="bathroom.html">Bathroom</a></li>
+                    <li><a href="team.html">Team</a></li>
+                    <li><a href="testimonials.html">Testimonials</a></li>
+                    <li><a href="blog.html">Blog</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="faq.html">FAQ</a></li>
+                </ul>
+         <div class="hamburger" onclick="toggleMenu()">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+        </nav>
+    </header>
+<script>
+function toggleMenu() {
+  // Get the navigation menu using the class selector
+  const navMenu = document.querySelector('.nav-menu');
+  
+  // Toggle the 'active' class on the menu
+  navMenu.classList.toggle('active');
+  
+  // Also toggle 'active' class on the hamburger icon for animation
+  const hamburger = document.querySelector('.hamburger');
+  hamburger.classList.toggle('active');
+}
+  </script>
+
+    <main>
+        <section class="page-hero">
+            <div class="container">
+                <h1 class="page-title">Residential Design</h1>
+                <p class="page-subtitle">Transform your house into a home that reflects your unique style</p>
+            </div>
+        </section>
+
+        <section class="intro-section">
+            <div class="container">
+                <div class="intro-grid">
+                    <div class="intro-content">
+                        <h2>Creating Homes That Tell Your Story</h2>
+                        <p>Your home should be a reflection of who you are—a space that not only looks beautiful but feels authentically yours. Our residential design services focus on understanding your lifestyle, preferences, and dreams to create spaces that enhance your daily life.</p>
+                        <p>From complete home renovations to single-room makeovers, we approach each project with the same attention to detail and commitment to excellence that has made us a trusted name in luxury residential design.</p>
+                        <div class="intro-stats">
+                            <div class="stat">
+                                <h3>300+</h3>
+                                <p>Homes Transformed</p>
+                            </div>
+                            <div class="stat">
+                                <h3>98%</h3>
+                                <p>Client Satisfaction</p>
+                            </div>
+                            <div class="stat">
+                                <h3>15+</h3>
+                                <p>Years Experience</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="intro-image">
+                        <img src="../images/download (6).jpg" alt="Luxury Residential Interior" />
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="services-section">
+            <div class="container">
+                <h2 class="section-title">Our Residential Services</h2>
+                <div class="services-grid">
+                    <div class="service-item">
+                        <div class="service-icon">🏠</div>
+                        <h3>Complete Home Design</h3>
+                        <p>Full-scale home transformations from concept to completion, ensuring every space flows seamlessly together.</p>
+                    </div>
+                    <div class="service-item">
+                        <div class="service-icon">🛋️</div>
+                        <h3>Room-by-Room Design</h3>
+                        <p>Focused design solutions for individual rooms, perfect for targeted improvements and budget-conscious projects.</p>
+                    </div>
+                    <div class="service-item">
+                        <div class="service-icon">📐</div>
+                        <h3>Space Planning</h3>
+                        <p>Optimize your home's layout for better functionality and flow, making the most of every square foot.</p>
+                    </div>
+                    <div class="service-item">
+                        <div class="service-icon">🎨</div>
+                        <h3>Color Consultation</h3>
+                        <p>Expert guidance on color schemes that reflect your personality and create the perfect ambiance.</p>
+                    </div>
+                    <div class="service-item">
+                        <div class="service-icon">🪑</div>
+                        <h3>Furniture Selection</h3>
+                        <p>Curated furniture pieces that combine style, comfort, and functionality for your lifestyle.</p>
+                    </div>
+                    <div class="service-item">
+                        <div class="service-icon">💡</div>
+                        <h3>Lighting Design</h3>
+                        <p>Comprehensive lighting solutions that enhance mood, functionality, and architectural features.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="portfolio-section">
+            <div class="container">
+                <h2 class="section-title">Recent Residential Projects</h2>
+                <div class="portfolio-grid">
+                    <div class="portfolio-item">
+                        <img src="../images/download (1).jpg" alt="Modern Family Home" />
+                        <div class="portfolio-overlay">
+                            <h3>Modern Family Home</h3>
+                            <p>Complete renovation of a 4-bedroom family residence</p>
+                            <span class="project-type">Whole Home • $150K</span>
+                        </div>
+                    </div>
+                    <div class="portfolio-item">
+                        <img src="../images/download (2).jpg" alt="Urban Apartment" />
+                        <div class="portfolio-overlay">
+                            <h3>Urban Apartment</h3>
+                            <p>Sophisticated city living with space optimization</p>
+                            <span class="project-type">Apartment • $75K</span>
+                        </div>
+                    </div>
+                    <div class="portfolio-item">
+                        <img src="../images/download (3).jpg" alt="Luxury Penthouse" />
+                        <div class="portfolio-overlay">
+                            <h3>Luxury Penthouse</h3>
+                            <p>High-end finishes with panoramic city views</p>
+                            <span class="project-type">Penthouse • $300K</span>
+                        </div>
+                    </div>
+                    <div class="portfolio-item">
+                        <img src="../images/download (4).jpg" alt="Suburban Villa" />
+                        <div class="portfolio-overlay">
+                            <h3>Suburban Villa</h3>
+                            <p>Classic elegance meets modern functionality</p>
+                            <span class="project-type">Villa • $200K</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="process-section">
+            <div class="container">
+                <h2 class="section-title">Our Design Process</h2>
+                <div class="process-timeline">
+                    <div class="timeline-item">
+                        <div class="timeline-number">1</div>
+                        <div class="timeline-content">
+                            <h3>Initial Consultation</h3>
+                            <p>We meet to understand your vision, lifestyle, and budget requirements.</p>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-number">2</div>
+                        <div class="timeline-content">
+                            <h3>Design Development</h3>
+                            <p>Creating mood boards, floor plans, and 3D visualizations of your space.</p>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-number">3</div>
+                        <div class="timeline-content">
+                            <h3>Material Selection</h3>
+                            <p>Choosing finishes, furniture, and accessories that bring the design to life.</p>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-number">4</div>
+                        <div class="timeline-content">
+                            <h3>Implementation</h3>
+                            <p>Managing the entire installation process with our trusted craftsmen.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="testimonial-section">
+            <div class="container">
+                <div class="testimonial-content">
+                    <blockquote>
+                        "Elegance Design Studio transformed our house into a dream home. Their attention to detail and understanding of our family's needs was exceptional."
+                    </blockquote>
+                    <cite>— Jennifer & Mark Thompson, Westchester</cite>
+                </div>
+            </div>
+        </section>
+
+        <section class="cta">
+            <div class="container">
+                <div class="cta-content">
+                    <h2>Ready to Transform Your Home?</h2>
+                    <p>Let's create a space that perfectly reflects your style and enhances your lifestyle.</p>
+                    <a href="contact.html" class="btn btn-primary">Start Your Project</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Elegance Design Studio</h3>
+                    <p>Creating beautiful, functional spaces that inspire and delight.</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="services.html">Services</a></li>
+                        <li><a href="portfolio.html">Portfolio</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Services</h4>
+                    <ul>
+                        <li><a href="residential.html">Residential Design</a></li>
+                        <li><a href="commercial.html">Commercial Design</a></li>
+                        <li><a href="kitchen.html">Kitchen Design</a></li>
+                        <li><a href="bedroom.html">Bedroom Design</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Contact Info</h4>
+                    <p>📧 info@elegancedesign.com</p>
+                    <p>📞 (555) 123-4567</p>
+                    <p>📍 123 Design Street, City, State</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Elegance Design Studio. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

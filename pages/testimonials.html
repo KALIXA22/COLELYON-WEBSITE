@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Testimonials - Elegance Design Studio</title>
+    <link rel="stylesheet" href="../styles/testimonials.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="header">
+        <nav class="navbar">
+            <div class="nav-container">
+                <div class="logo">
+                    <h1>COL*YON</h1>
+                </div>
+                <ul class="nav-menu">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="portfolio.html">Portfolio</a></li>
+                    <li><a href="residential.html">Residential</a></li>
+                    <li><a href="commercial.html">Commercial</a></li>
+                    <li><a href="kitchen.html">Kitchen</a></li>
+                    <li><a href="bedroom.html">Bedroom</a></li>
+                    <li><a href="living-room.html">Living Room</a></li>
+                    <li><a href="bathroom.html">Bathroom</a></li>
+                    <li><a href="team.html">Team</a></li>
+                    <li><a href="testimonials.html" class="active">Testimonials</a></li>
+                    <li><a href="blog.html">Blog</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="faq.html">FAQ</a></li>
+                </ul>
+         <div class="hamburger" onclick="toggleMenu()">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+        </nav>
+    </header>
+<script>
+function toggleMenu() {
+  // Get the navigation menu using the class selector
+  const navMenu = document.querySelector('.nav-menu');
+  
+  // Toggle the 'active' class on the menu
+  navMenu.classList.toggle('active');
+  
+  // Also toggle 'active' class on the hamburger icon for animation
+  const hamburger = document.querySelector('.hamburger');
+  hamburger.classList.toggle('active');
+}
+  </script>
+
+    <main>
+        <section class="page-hero">
+            <div class="container">
+                <h1 class="page-title">Client Testimonials</h1>
+                <p class="page-subtitle">Hear what our clients say about their design experience</p>
+            </div>
+        </section>
+
+        <section class="testimonials-section">
+            <div class="container">
+                <div class="testimonials-grid">
+                    <div class="testimonial-card featured">
+                        <div class="testimonial-content">
+                            <div class="stars">⭐⭐⭐⭐⭐</div>
+                            <blockquote>"Elegance Design Studio transformed our home beyond our wildest dreams. Their attention to detail and understanding of our family's needs was exceptional. Every room now feels like a perfect reflection of our style."</blockquote>
+                            <div class="client-info">
+                                <img src="../images/user6.jpg" alt="Jennifer Thompson" />
+                                <div class="client-details">
+                                    <h4>Jennifer & Mark Thompson</h4>
+                                    <p>Westchester, NY • Complete Home Renovation</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="testimonial-card">
+                        <div class="testimonial-content">
+                            <div class="stars">⭐⭐⭐⭐⭐</div>
+                            <blockquote>"The kitchen design exceeded all our expectations. Sarah and her team created a space that's both beautiful and incredibly functional for our busy family life."</blockquote>
+                            <div class="client-info">
+                                <img src="../images/user1.jpg" alt="Maria Rodriguez" />
+                                <div class="client-details">
+                                    <h4>Maria Rodriguez</h4>
+                                    <p>Manhattan, NY • Kitchen Renovation</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="testimonial-card">
+                        <div class="testimonial-content">
+                            <div class="stars">⭐⭐⭐⭐⭐</div>
+                            <blockquote>"Professional, creative, and incredibly talented. They turned our outdated living room into a sophisticated space we love spending time in."</blockquote>
+                            <div class="client-info">
+                                <img src="../images/user3.jpg" alt="David Chen" />
+                                <div class="client-details">
+                                    <h4>David Chen</h4>
+                                    <p>Brooklyn, NY • Living Room Design</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="testimonial-card">
+                        <div class="testimonial-content">
+                            <div class="stars">⭐⭐⭐⭐⭐</div>
+                            <blockquote>"Our master bedroom is now a true sanctuary. The design perfectly balances luxury with comfort, and we couldn't be happier with the result."</blockquote>
+                            <div class="client-info">
+                                <img src="../images/user4.jpg" alt="Lisa Johnson" />
+                                <div class="client-details">
+                                    <h4>Lisa & Robert Johnson</h4>
+                                    <p>Queens, NY • Bedroom Design</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="testimonial-card">
+                        <div class="testimonial-content">
+                            <div class="stars">⭐⭐⭐⭐⭐</div>
+                            <blockquote>"The team's expertise in commercial design helped us create an office space that truly reflects our brand and inspires our employees daily."</blockquote>
+                            <div class="client-info">
+                                <img src="../images/user5.jpg" alt="Michael Foster" />
+                                <div class="client-details">
+                                    <h4>Michael Foster</h4>
+                                    <p>CEO, Tech Innovations • Office Design</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="testimonial-card">
+                        <div class="testimonial-content">
+                            <div class="stars">⭐⭐⭐⭐⭐</div>
+                            <blockquote>"From concept to completion, the process was seamless. They managed every detail and delivered exactly what they promised, on time and on budget."</blockquote>
+                            <div class="client-info">
+                                <img src="../images/user2.jpg" alt="Amanda Wilson" />
+                                <div class="client-details">
+                                    <h4>Amanda Wilson</h4>
+                                    <p>Long Island, NY • Bathroom Renovation</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="stats-section">
+            <div class="container">
+                <h2 class="section-title">Our Track Record</h2>
+                <div class="stats-grid">
+                    <div class="stat-item">
+                        <h3>98%</h3>
+                        <p>Client Satisfaction Rate</p>
+                    </div>
+                    <div class="stat-item">
+                        <h3>500+</h3>
+                        <p>Projects Completed</p>
+                    </div>
+                    <div class="stat-item">
+                        <h3>15+</h3>
+                        <p>Years of Experience</p>
+                    </div>
+                    <div class="stat-item">
+                        <h3>50+</h3>
+                        <p>Design Awards</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="video-testimonial">
+            <div class="container">
+                <h2 class="section-title">Video Testimonials</h2>
+                <div class="video-grid">
+                    <div class="video-item">
+                        <div class="video-placeholder">
+                            <img src="/placeholder.svg?height=300&width=500" alt="Video Testimonial" />
+                            <div class="play-button">▶️</div>
+                        </div>
+                        <h3>The Thompson Family</h3>
+                        <p>Complete home transformation journey</p>
+                    </div>
+                    <div class="video-item">
+                        <div class="video-placeholder">
+                            <img src="/placeholder.svg?height=300&width=500" alt="Video Testimonial" />
+                            <div class="play-button">▶️</div>
+                        </div>
+                        <h3>Tech Innovations Office</h3>
+                        <p>Commercial space design success story</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="cta">
+            <div class="container">
+                <div class="cta-content">
+                    <h2>Ready to Join Our Happy Clients?</h2>
+                    <p>Let's create a space that you'll love and want to share with others.</p>
+                    <a href="contact.html" class="btn btn-primary">Start Your Project</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Elegance Design Studio</h3>
+                    <p>Creating beautiful, functional spaces that inspire and delight.</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="services.html">Services</a></li>
+                        <li><a href="portfolio.html">Portfolio</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Services</h4>
+                    <ul>
+                        <li><a href="residential.html">Residential Design</a></li>
+                        <li><a href="commercial.html">Commercial Design</a></li>
+                        <li><a href="kitchen.html">Kitchen Design</a></li>
+                        <li><a href="bedroom.html">Bedroom Design</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Contact Info</h4>
+                    <p>📧 info@elegancedesign.com</p>
+                    <p>📞 (555) 123-4567</p>
+                    <p>📍 123 Design Street, City, State</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Elegance Design Studio. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

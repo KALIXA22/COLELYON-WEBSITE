@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Services - Elegance Design Studio</title>
+    <link rel="stylesheet" href="../styles/services.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="header">
+        <nav class="navbar">
+            <div class="nav-container">
+                <div class="logo">
+                    <h1>COL*YON</h1>
+                </div>
+                <ul class="nav-menu">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="services.html" class="active">Services</a></li>
+                    <li><a href="portfolio.html">Portfolio</a></li>
+                    <li><a href="residential.html">Residential</a></li>
+                    <li><a href="commercial.html">Commercial</a></li>
+                    <li><a href="kitchen.html">Kitchen</a></li>
+                    <li><a href="bedroom.html">Bedroom</a></li>
+                    <li><a href="living-room.html">Living Room</a></li>
+                    <li><a href="bathroom.html">Bathroom</a></li>
+                    <li><a href="team.html">Team</a></li>
+                    <li><a href="testimonials.html">Testimonials</a></li>
+                    <li><a href="blog.html">Blog</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="faq.html">FAQ</a></li>
+                </ul>
+        <div class="hamburger" onclick="toggleMenu()">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+        </nav>
+    </header>
+<script>
+function toggleMenu() {
+  // Get the navigation menu using the class selector
+  const navMenu = document.querySelector('.nav-menu');
+  
+  // Toggle the 'active' class on the menu
+  navMenu.classList.toggle('active');
+  
+  // Also toggle 'active' class on the hamburger icon for animation
+  const hamburger = document.querySelector('.hamburger');
+  hamburger.classList.toggle('active');
+}
+  </script>
+
+    <main>
+        <section class="page-hero">
+            <div class="container">
+                <h1 class="page-title">Our Services</h1>
+                <p class="page-subtitle">Comprehensive interior design solutions tailored to your needs</p>
+            </div>
+        </section>
+
+        <section class="services-overview">
+            <div class="container">
+                <div class="services-grid">
+                    <div class="service-card">
+                        <div class="service-image">
+                            <img src="../images/download (5).jpg" alt="Residential Design" />
+                        </div>
+                        <div class="service-content">
+                            <h3>Residential Design</h3>
+                            <p>Transform your home into a personal sanctuary with our comprehensive residential design services.</p>
+                            <ul>
+                                <li>Complete home makeovers</li>
+                                <li>Room-by-room design</li>
+                                <li>Space planning</li>
+                                <li>Color consultation</li>
+                            </ul>
+                            <a href="residential.html" class="btn btn-primary">Learn More</a>
+                        </div>
+                    </div>
+
+                    <div class="service-card">
+                        <div class="service-image">
+                            <img src="../images/download (6).jpg" alt="Commercial Design" />
+                        </div>
+                        <div class="service-content">
+                            <h3>Commercial Design</h3>
+                            <p>Create inspiring work environments that boost productivity and reflect your brand identity.</p>
+                            <ul>
+                                <li>Office design</li>
+                                <li>Retail spaces</li>
+                                <li>Restaurant design</li>
+                                <li>Hotel interiors</li>
+                            </ul>
+                            <a href="commercial.html" class="btn btn-primary">Learn More</a>
+                        </div>
+                    </div>
+
+                    <div class="service-card">
+                        <div class="service-image">
+                            <img src="../images/kitchen5.jpg" alt="Kitchen Design" />
+                        </div>
+                        <div class="service-content">
+                            <h3>Kitchen Design</h3>
+                            <p>Design the heart of your home with functional and beautiful kitchen solutions.</p>
+                            <ul>
+                                <li>Custom cabinetry</li>
+                                <li>Layout optimization</li>
+                                <li>Appliance selection</li>
+                                <li>Storage solutions</li>
+                            </ul>
+                            <a href="kitchen.html" class="btn btn-primary">Learn More</a>
+                        </div>
+                    </div>
+
+                    <div class="service-card">
+                        <div class="service-image">
+                            <img src="../images/bathroom4.jpg" alt="Bathroom Design" />
+                        </div>
+                        <div class="service-content">
+                            <h3>Bathroom Design</h3>
+                            <p>Create luxurious spa-like bathrooms that combine comfort with stunning aesthetics.</p>
+                            <ul>
+                                <li>Master bathroom suites</li>
+                                <li>Powder room design</li>
+                                <li>Fixture selection</li>
+                                <li>Lighting design</li>
+                            </ul>
+                            <a href="bathroom.html" class="btn btn-primary">Learn More</a>
+                        </div>
+                    </div>
+
+                    <div class="service-card">
+                        <div class="service-image">
+                            <img src="../images/LivingRoom3.jpg" alt="Living Room Design" />
+                        </div>
+                        <div class="service-content">
+                            <h3>Living Room Design</h3>
+                            <p>Design comfortable and stylish living spaces perfect for relaxation and entertainment.</p>
+                            <ul>
+                                <li>Furniture selection</li>
+                                <li>Layout planning</li>
+                                <li>Entertainment centers</li>
+                                <li>Lighting schemes</li>
+                            </ul>
+                            <a href="living-room.html" class="btn btn-primary">Learn More</a>
+                        </div>
+                    </div>
+
+                    <div class="service-card">
+                        <div class="service-image">
+                            <img src="../images/bathroom4.jpg" alt="Bedroom Design" />
+                        </div>
+                        <div class="service-content">
+                            <h3>Bedroom Design</h3>
+                            <p>Create peaceful retreats with our bedroom design expertise for ultimate comfort.</p>
+                            <ul>
+                                <li>Master bedroom suites</li>
+                                <li>Guest room design</li>
+                                <li>Children's rooms</li>
+                                <li>Closet organization</li>
+                            </ul>
+                            <a href="bedroom.html" class="btn btn-primary">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="process-section">
+            <div class="container">
+                <h2 class="section-title">Our Design Process</h2>
+                <div class="process-timeline">
+                    <div class="timeline-item">
+                        <div class="timeline-marker">1</div>
+                        <div class="timeline-content">
+                            <h3>Initial Consultation</h3>
+                            <p>We meet to discuss your vision, needs, and budget for the project.</p>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-marker">2</div>
+                        <div class="timeline-content">
+                            <h3>Space Assessment</h3>
+                            <p>Detailed measurement and analysis of your space and its potential.</p>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-marker">3</div>
+                        <div class="timeline-content">
+                            <h3>Design Development</h3>
+                            <p>Creation of mood boards, floor plans, and 3D visualizations.</p>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-marker">4</div>
+                        <div class="timeline-content">
+                            <h3>Material Selection</h3>
+                            <p>Choosing finishes, furniture, and accessories that bring the design to life.</p>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-marker">5</div>
+                        <div class="timeline-content">
+                            <h3>Project Management</h3>
+                            <p>Overseeing installation and ensuring every detail is perfect.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="pricing">
+            <div class="container">
+                <h2 class="section-title">Service Packages</h2>
+                <div class="pricing-grid">
+                    <div class="pricing-card">
+                        <h3>Design Consultation</h3>
+                        <div class="price">$150<span>/hour</span></div>
+                        <ul>
+                            <li>Initial space assessment</li>
+                            <li>Design recommendations</li>
+                            <li>Color and style guidance</li>
+                            <li>Shopping list creation</li>
+                        </ul>
+                        <a href="contact.html" class="btn btn-outline">Get Started</a>
+                    </div>
+                    <div class="pricing-card featured">
+                        <h3>Full Room Design</h3>
+                        <div class="price">$2,500<span>/room</span></div>
+                        <ul>
+                            <li>Complete design concept</li>
+                            <li>3D renderings</li>
+                            <li>Furniture selection</li>
+                            <li>Project management</li>
+                            <li>Installation oversight</li>
+                        </ul>
+                        <a href="contact.html" class="btn btn-primary">Most Popular</a>
+                    </div>
+                    <div class="pricing-card">
+                        <h3>Complete Home</h3>
+                        <div class="price">Custom<span>Quote</span></div>
+                        <ul>
+                            <li>Whole home transformation</li>
+                            <li>Architectural planning</li>
+                            <li>Custom millwork</li>
+                            <li>Dedicated project manager</li>
+                            <li>White-glove service</li>
+                        </ul>
+                        <a href="contact.html" class="btn btn-outline">Contact Us</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="cta">
+            <div class="container">
+                <div class="cta-content">
+                    <h2>Ready to Transform Your Space?</h2>
+                    <p>Schedule a consultation to discuss your project and see how we can help.</p>
+                    <a href="contact.html" class="btn btn-primary">Schedule Consultation</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Elegance Design Studio</h3>
+                    <p>Creating beautiful, functional spaces that inspire and delight.</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="services.html">Services</a></li>
+                        <li><a href="portfolio.html">Portfolio</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Services</h4>
+                    <ul>
+                        <li><a href="residential.html">Residential Design</a></li>
+                        <li><a href="commercial.html">Commercial Design</a></li>
+                        <li><a href="kitchen.html">Kitchen Design</a></li>
+                        <li><a href="bedroom.html">Bedroom Design</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Contact Info</h4>
+                    <p>📧 info@elegancedesign.com</p>
+                    <p>📞 (555) 123-4567</p>
+                    <p>📍 123 Design Street, City, State</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Elegance Design Studio. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
